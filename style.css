@@ -55,3 +55,33 @@ body{
     width: 100%;
 
 }
+.container {
+    width: 250;
+    height: 200;
+    padding-top: 150px;
+    flex-wrap: wrap;
+ }
+
+ .image {
+    padding-left: 780px;
+ }
+
+ .about {
+    padding-left: 100px;
+    text-align: left;
+    text-wrap: wrap;
+    font-size: 2rem;
+    position:absolute;
+    width: 50%;    
+ }
+
+ .quote {
+    padding-left: 120px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellow;
+    font-family: 'Pacifico', cursive;
+ }
+
