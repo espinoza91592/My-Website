@@ -11,6 +11,18 @@ body{
     background: radial-gradient(#77b1d1, #01579b )
 }
 
+h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+
+p{
+    font-size: 1.8rem;
+    text-align: left;
+    padding-right: 200px;
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -56,32 +68,54 @@ body{
 
 }
 .container {
-    width: 250;
-    height: 200;
+    width: 70%;
+    height: 80%;
     padding-top: 150px;
+    padding-left: 100px;
+    position: absolute;
     flex-wrap: wrap;
  }
 
+
+
  .image {
-    padding-left: 780px;
+    padding-left: 700px;
+    position: relative;
+    bottom: 200px
  }
 
- .about {
+ /* .about {
     padding-left: 100px;
     text-align: left;
     text-wrap: wrap;
     font-size: 2rem;
     position:absolute;
-    width: 50%;    
- }
+    width: 50%;   
+    height: 60%; 
+ } */
 
  .quote {
-    padding-left: 120px;
-    padding-top: 100px;
+    /* padding-left: 120px; */
+    /* padding-top: 100px; */
+    margin-top: 0px;
+    bottom: 200px;
     text-align: center;
+    position: relative;
+    padding-left: 50px;
+    /* top: -50; */
     font-size: 2rem;
     font-weight: bold;
     color: yellow;
     font-family: 'Pacifico', cursive;
  }
 
+ @media screen and (max-width:480px) {
+    main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+ }
