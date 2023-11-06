@@ -23,6 +23,15 @@ p{
     padding-right: 200px;
 }
 
+
+.adjust-line-height{
+    font-size: 1rem;
+    text-indent: 40px;
+    line-height: 1.5em;
+    position: relative;
+    left: 10%;
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -36,7 +45,12 @@ p{
     z-index: 100;
 
 }
-
+.header-2 {
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    left: 50%;
+}
 .logo {
     font-size: 2rem;
     color: white;
@@ -76,12 +90,29 @@ p{
     flex-wrap: wrap;
  }
 
-
+.container-2 {
+    width:70%;
+    height:80%;
+    padding-top: 150px;
+    padding-left: 100px;
+    position: absolute;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
 
  .image {
     padding-left: 700px;
     position: relative;
     bottom: 200px
+ }
+
+ .image-2 {
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 10%;
  }
 
  /* .about {
