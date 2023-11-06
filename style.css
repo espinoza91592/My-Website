@@ -101,6 +101,30 @@ p{
     
 }
 
+.container-3 {
+    width: 90%;
+    height: 80%;
+    padding-top: 150px;
+    padding-left: 150px;
+    position: absolute;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+
+
+.container-4 {
+    width: 80%;
+    height: 50;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+    background-color: bisque;
+
+    
+
+}
+
  .image {
     padding-left: 700px;
     position: relative;
@@ -114,6 +138,8 @@ p{
     position: relative;
     left: 10%;
  }
+
+ 
 
  /* .about {
     padding-left: 100px;
@@ -150,3 +176,5 @@ p{
     
     
  }
+
+ 
