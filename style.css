@@ -19,20 +19,31 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    border-bottom: 5px solid rgb(45, 31, 30);
+    border-radius: 5px;
+    border-style:ridge
 }
+
 p{
     font-size: 1.8rem;
     text-align: left;
     padding-right: 200px;
 }
 
-
+hr {
+    border: 5px solid rgb(45, 31, 63);
+    border-radius: 5px;
+}
 .adjust-line-height{
     font-size: 1rem;
     text-indent: 40px;
     line-height: 1.5em;
     position: relative;
     left: 10%;
+}
+
+.adjust-line {
+    line-height: 1.5em;
 }
 
 .header{
@@ -116,7 +127,7 @@ p{
 
 
 .container-4 {
-    width: 80%;
+    width: 90%;
     height: 50;
     border: 1px solid black;
     display: inline-block;
@@ -165,7 +176,7 @@ p{
     /* top: -50; */
     font-size: 2rem;
     font-weight: bold;
-    color: yellow;
+    color: rgb(202, 31, 45);
     font-family: 'Pacifico', cursive;
  }
 
@@ -176,7 +187,6 @@ p{
         align-items: center;
         text-align: center;
     }
-    
     
  }
 
