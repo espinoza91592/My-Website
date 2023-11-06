@@ -17,6 +17,9 @@ h2 {
     padding-bottom: 25px;
 }
 
+h3 {
+    font-size: 2rem;
+}
 p{
     font-size: 1.8rem;
     text-align: left;
