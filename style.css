@@ -134,11 +134,24 @@ hr {
     position: relative;
     margin-top: 25px;
     background-color: bisque;
-
-    
-
 }
 
+.container-5 {
+    width: 60%;
+    height: 80%;
+    padding-top: 80px;
+    /* padding-left: 150px; */ 
+    position: absolute;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: bisque;
+    margin-bottom: 60px;
+    border: 1px;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
  .image {
     padding-left: 700px;
     position: relative;
