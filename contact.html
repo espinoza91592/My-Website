@@ -30,16 +30,33 @@
 
      <!-- Content -->
     <main>
+        <section>
+            <div>
+                <h2>Contact Me:</h2>
+            </div>
+            <form action="">
+                <!-- Always put forms in divs -->
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="Name"> <br><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="Email"><br><br>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="10" cols="30"></textarea>
+                    <br><br>
+                </div>
+                <!-- Submit Button shoould not be in a div -->
+                <button type="submit">Submit</button>
+            </form>
 
 
 
+        </section>
 
-        
     </main>
-
-
-
-
-
 
 </body>
